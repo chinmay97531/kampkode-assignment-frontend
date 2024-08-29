@@ -8,6 +8,7 @@ import './App.css';
 function App() {
   return (
     <div>
+     
       <Navbar />
       <div style={{
         backgroundImage: `url(${require('../src/photos/background_image.png')})`,

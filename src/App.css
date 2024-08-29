@@ -15,15 +15,17 @@ ul {
 .navbar {
   display: flex;
   justify-content: space-between;
-  padding: 13.5px, 40px, 13.5px, 40px;
+  padding: 13.5px 40px;
   align-items: center;
-  height: 80px;
+  height: 60px;
   background-color: white;
   box-shadow: 2px 4px 20px 0px #7D6EEB80;
   border-radius: 20px;
+  position: sticky; 
+  top: 0; 
+  z-index: 1000; 
   margin-top: 20px;
   margin-left: 35px;
-  margin-bottom: 20px;
   margin-right: 35px;
 }
 
@@ -195,7 +197,7 @@ ul {
 
   .navbar {
     justify-content: space-between;
-    position: relative;
+    
   }
 
   .first_part {
