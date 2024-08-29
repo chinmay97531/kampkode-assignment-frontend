@@ -201,4 +201,10 @@ ul {
   .first_part {
     margin-left: 20px;
   }
+  .hero_buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+  }
 }
